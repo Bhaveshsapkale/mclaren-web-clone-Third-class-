@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-stretch: expanded;
+    font-size: 1.2rem;
+}
+
+/* media queries */
+
+@media (max-width:500px) {
+    #main{
+        text-align: center;
+    }
+    .discription{
+        padding-top: 5px;
+    }
+    .card p{
+        padding-bottom: 0.5rem;
+    }
+    .content{
+        text-align: center;
+    }
+}
+
+
+/* main section */
+
+#main{
+    /* background-color: rgb(33, 32, 32); */
+    height: 100vh;
+    background-image: url('car.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+}
+.navbar-alink{
+    color: rgb(201, 199, 199);
+    letter-spacing: 3.5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: white;
+}
+.container-fluid img{
+    width: 10rem;
+    height: 4rem;
+}
+.discription{
+    color: white;
+    padding: 9rem 3rem 0;
+}
+.discription h1{
+    font-size: 4.5rem;
+}
+.discription p{
+    padding-bottom: 0.1rem;
+}
+.btn-discover{
+    margin-top: 1.5rem;
+    color: rgb(201, 199, 199);
+    border-color: rgb(201, 199, 199);
+}
+.btn-discover:hover{
+    color: white;
+    border-color: white;
+}
+
+/* news section */
+
+#news{
+    padding: 6rem 3.5rem 2rem;
+}
+.heading h1{
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+.heading .btn{
+    border-color: rgb(201, 199, 199);
+    color: black;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+.btn-discover1:hover{
+    border-color: black;
+}
+
+/* series */
+
+.series{
+    padding:2% 0 4%;
+    /* font-weight: bold; */
+}
+.card{
+    height: 60vh;
+    border: white;
+    margin: 0.2rem;
+}
+.card img{
+    width: 100%;
+    height: 22vh;
+}
+.card p{
+    /* font-weight: bold; */
+    padding: 2% 0 2%;
+    font-size: 1rem;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+.card a:hover{
+    color: rgba(255, 47, 47, 0.881);
+}
+
+/* signup section */
+
+#signup{
+    background-color: #242A2E;
+    padding: 5% 2%;
+    color: white;
+    text-align: center;
+}
+#signup h1{
+    margin: 1.5rem 0;
+}
+#signup .btn{
+    margin-top: 1.5rem;
+    width: 6rem;
+    /* text-align: left; */
+}
+
+/* artura section */
+#artura{
+    background-image: url('mclaren.jpg');
+    height: 80vh;
+    background-size: cover;
+    color: white;
+}
+.content{
+    padding: 8% 4%;
+}
+.content h2{
+    letter-spacing: 2px;
+}
+.content p{
+    font-size: 5.5rem;
+    letter-spacing: 2px;
+}
+.content .btn{
+    font-weight: bold;
+    margin: 0.2rem;
+    letter-spacing: 2px;
+}
+
+#description{
+    padding: 6% 0 8% 5%;
+    background-color: #242A2E;
+    color: white;
+}
+.text p{
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+.description-images{
+    margin: 4rem 0 6rem;
+    /* height: 45vh; */
+}
+.image1{
+    background-image: url('mc-1.jpg');
+    background-size: cover;
+}
+.img1{
+    background-size: cover;
+    background-image: url('mc-2.jpg');
+    height: 25vh;
+}
+.img2{
+    height: 25vh;
+    background-size: cover;
+    background-image: url('mc-3.jpg');
+}
+.image3{
+    background-size: cover;
+    background-image: url('mc-4.jpg');
+}
+
+/* spider section */
+#spider{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.mc-spider{
+    background-image: url('mc-spider.jpg');
+    background-size: cover;
+    height: 50vh;
+    padding: 27% 5%;
+}
+.mc-spider h1{
+    font-size: 6em;
+}
+.mc-spider .btn{
+    margin-top: 1.8rem;
+    width: 7rem;
+}
+.about-company h1{
+    padding: 18rem 0 2rem 2rem;
+}
+.cm-img{
+    background-image: url('mc-cm-1.webp');
+    background-size: cover;
+    height: 50vh;
+}
+.cm-img1{
+    background-image: url('mc-cm-2.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+.cm-img2{
+    background-image: url('mc-cm-3.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+.cm-img3{
+    background-image: url('m-cm-4.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+.cm-img4{
+    background-image: url('mc-cm-5.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+.cm-img5{
+    background-image: url('mc-cm-6.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+#inqiuary{
+    height: 40vh;
+}
+#inqiuary .btn{
+    margin-top: 1.5rem;
+    width: 6rem;
+    margin-left: 3rem;
+}
+.text-format{
+    padding: 6rem 10rem 0 3rem;
+}
+
+/* footer section */
+.mc-footer{
+    width: 100%;
+    color: white;
+    height: 80vh;
+    background-color: #1d2124;
+}
+h6{
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+.mc-support{
+    padding: 8% 0 5% 8%;
+}
+.mc-contact{
+    height: 75vh;
+    background-color: #2f3439;
+    margin-top: 2.5%;
+}
+.corporate1{
+    font-size: 1.5rem;
+    padding-bottom: 18%;
+}
+.corporate1 .row{
+    margin-top: 5px;
+}
+.corporate2{
+    font-size: 1.5rem;
+}
+.table-content{
+    font-size: 13px;
+}
+.table-content td{
+    letter-spacing: 2px;
+    padding: 15px 20px 15px 0;
+
+}
+h4{
+    margin-bottom: 2rem;
+}
+.contact{
+    margin: 5rem 0 3rem 3.5rem;
+}
+.contact2{
+    margin: 5rem 0 3rem 3.5rem;
+}
+.contact2 td{
+    padding-right: 20px;
+}
